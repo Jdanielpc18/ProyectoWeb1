@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Datalist, Combobox y fieldset</title>
+</head>
+<body>
+    <h1>Ejemplo Datalist, Combobox y fieldset</h1>
+<form>
+    <h2>Combobox</h2>
+    <fieldset>
+    <select>
+        <option value="">Seleccione un valor</option>
+        <option value="KT">Karate</option>
+        <option value="FT">Futbol</option>
+        <option value="BB">Beibol</option>
+    </select>
+
+    <h2>Combobox Agrupado</h2>
+    <select>
+        <optgroup label="Sistemas Operativos">
+            <option value="W">Windows</option>
+            <option value="GL">GNU/Linux</option>
+            <option value="MO">Mac OS</option>
+        </optgroup>
+        <optgroup label="Navegadores(Browsers)">
+            <option value="CH">Chorme</option>
+            <option value="BR">Brave</option>
+            <option value="ED">Edge</option>
+        </optgroup>
+    </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Datalist</legend>
+    <h2>Datalist (Lista Incremental)</h2>
+    <datalist id="Lista">
+
+        <option value="MySQL"></option>
+        <option value="Oracle"></option>
+        <option value="POstgresql"></option>
+        <option value="SQL Server"></option>
+    </datalist>
+    
+    <input type="text" list="Lista" placeholder="Escoja una opcion">
+    
+    </fieldset>
+
+    <h2>Textarea</h2>
+    <textarea name="" id="" cols="81" rows="5" placeholder="Como estubo tu día."></textarea>
+    <!-- cols - ancho | rows - alto -->
+
+    <h2>Expresiones regulares</h2>
+    <input type="text" pattern="[a-zA-ZñÑ]*">
+    <input type="submit" value="Enviar datos al servidor">
+</form>
+
+
+</body>
+</html>
