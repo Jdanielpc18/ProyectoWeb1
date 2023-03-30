@@ -1,0 +1,24 @@
+
+h1{
+    background-color: darkslategray;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+}
+
+
+.flexContenedor{
+    display: flex;
+}
+
+.divIzquierda{
+    width: 40%;
+    
+    
+}
+
+.divDerecha{
+    width: 50%;
+    text-align: center;
+}

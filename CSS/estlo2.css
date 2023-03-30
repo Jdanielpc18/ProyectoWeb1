@@ -1,0 +1,91 @@
+/* div{
+    width: 50%;
+} */
+
+:root{
+    --rojo : #af1225;
+    --naranja: #fd8620;
+    --azul : #402687;
+}
+
+
+#color_uno{
+    background-color: #af1225;
+}
+
+#color_dos{
+    background-color: #fd8620;
+}
+
+#color_tres{
+    background-color: #402687;
+}
+
+#encabezado{
+    font-size: 80px;
+    background-color: #af1225;
+    color: white;
+    text-align: center;
+}
+h1{
+    margin-top: 0%;
+}
+
+#cuerpo{
+    background-image: radial-gradient(circle at 120.71% 50%, #ffa024 0, #ff8d37 10%, #ff7a44 20%, #ff654e 30%, #ff4f55 40%, #ff3858 50%, #e62159 60%, #ce055b 70%, #b9005c 80%, #a6005f 90%, #960062 100%);
+}
+
+#cuadro{
+    background-color: #402687;
+}
+
+.flex_contenedor {
+    display: flex;
+    
+    
+}
+
+/* .flex_contenedor > div {
+    width: 50%;
+} */
+.divizquierda{
+    width: 40%;
+    
+}
+
+.divderecha{
+    width: 50%;
+    background-color: #08015e;
+    text-align: center;
+}
+
+.colorletra{
+    color: white;
+}
+
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
+.colorBotonIzquierdo{
+    background: rgb(246,34,50);
+    background: linear-gradient(90deg, rgba(246,34,50,1) 0%, rgba(253,132,31,1) 100%);
+}
+
+.colorBotonDerecho{
+    background-color: #5665f0;
+}

@@ -1,0 +1,15 @@
+.flexContenedor{
+    display: flex;
+    background-color: red;
+}
+
+.flexContenedor > div{
+    width: 50%;
+}
+
+.flexContenedorjustify{
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+    background-color: blue;
+}

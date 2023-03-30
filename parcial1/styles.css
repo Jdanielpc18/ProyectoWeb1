@@ -1,0 +1,55 @@
+.flexContenedor{
+    display: flex;
+}
+
+.divIzquierda{
+    width: 20%;
+}
+
+.divCentral{
+    width: 60%;
+}
+
+.divDerecha{
+    width: 20%;
+}
+
+nav {
+   
+    flex-direction: column; 
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16;
+    padding: 20px 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #960936;
+  }
+
+  .logo-container {
+    position: relative;
+  }
+  
+  .logo {
+    width: 95px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(105%);
+  }
+
+  #mi-div {
+    width: 249px;
+    height: 100px;
+    background-color: #960936;
+  }

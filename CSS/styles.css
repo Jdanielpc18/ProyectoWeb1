@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+span{
+    color: brown;
+}
+
+h1,h2,p {
+    text-align: center;
+}
+
+.destacado{
+    font-size: 40px;
+    color: blueviolet;
+    font-family: monospace;
+}
+
+#coloreado{
+    color: chartreuse;
+}
